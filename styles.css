@@ -29,17 +29,10 @@ body {
 .postcard-body {
 	display: flex;
 }
-.body-left p:first-child {
+.no-margin {
 	margin-top: 0;
 }
-.body-left {
-	padding: 8px;
-}
+.body-left,
 .body-right {
-	padding: 8px;
-}
-.input-field input {
-	width: 300px;
-	height: 60px;
-	border-radius: 6px;
+	padding: 10px;
 }
